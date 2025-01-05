@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseURL = process.env.REACT_APP_BASE_URL;
+const baseURL = "https://manager-backend-v1jz.onrender.com";
 import { tokenStorageKey } from "../utils/constants";
 const jwt = localStorage.getItem(tokenStorageKey);
 let axiosConfig = {
